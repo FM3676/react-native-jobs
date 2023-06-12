@@ -1,14 +1,19 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from "react";
+import { View, Text } from "react-native";
 
-import styles from './screenheader.style'
+import styles from "./screenheader.style";
 
-const ScreenHeaderBtn = () => {
+export interface IScreenHeaderBtnProps {
+  iconUrl: any;
+  dismension: string;
+}
+
+const ScreenHeaderBtn = (props: IScreenHeaderBtnProps) => {
   return (
     <View>
       <Text>ScreenHeaderBtn</Text>
     </View>
-  )
-}
+  );
+};
 
-export default ScreenHeaderBtn
+export default ScreenHeaderBtn;
