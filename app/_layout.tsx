@@ -18,7 +18,7 @@ const Layout = () => {
   }
   // Render the children routes now that all the assets are loaded.
 
-  return <Slot />;
+  return <Stack />;
 };
 
 export default Layout;
